@@ -9,3 +9,12 @@ body {
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 4.5em;
 }
+
+.game-area {
+    margin: auto;
+    width: 80%;
+    height: 350px;
+    background: url(../images/Marvel.jpeg) no-repeat, center;
+    background-size: 100%;
+
+}
