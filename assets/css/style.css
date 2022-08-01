@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200;400;800&family=Saira+Semi+Condensed:wght@200;400&display=swap');
+
+body {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 4.5em;
+}
