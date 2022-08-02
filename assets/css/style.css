@@ -3,6 +3,7 @@
 body {
     font-family: 'Saira Semi Condensed', sans-serif;
     text-align: center;
+    color: #000000;
 }
 
 .heading {
@@ -13,8 +14,25 @@ body {
 .game-area {
     margin: auto;
     width: 80%;
-    height: 350px;
+    height: 380px;
     background: url(../images/Marvel.jpeg) no-repeat, center;
     background-size: 100%;
+
+}
+
+#start-btn {
+    text-decoration: none;
+    font-size: 2.5em;
+}
+
+a:focus {
+    color: #000000;
+}
+
+a:hover {
+    color: #FFFFFF;
+    background: rgb(235, 27, 27);
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
