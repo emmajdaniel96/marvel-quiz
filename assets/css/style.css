@@ -51,9 +51,27 @@ a, h1:hover {
 
 /* quiz area */
 
- .quiz-area{
+ .quiz-area {
     margin: auto;
     width: 75%;
     height: 390px;
     background-color: rgba;
+}
+
+#question {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.option-box {
+    margin: auto;
+    background-color: rgba(255, 70, 65, 1);
+    border-radius: 0.3em;
+    width: 70%;
+    transition-duration: 0.4s;
+}
+
+.option-box:hover {
+    background: rgb(247,222,95);
+    width: 74%;
 }
