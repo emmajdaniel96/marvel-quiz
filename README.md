@@ -80,3 +80,8 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 * Hero Image - main feature of the start page, used as a background through the quiz, main featuure on score page
 
 * 
+
+### Future Features:
+
+
+## Issues and Bugs:
