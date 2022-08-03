@@ -12,6 +12,8 @@
     - [Template](#Template)
     - [Colour Palette](#Colour-Palette)
 * [Features](#Features)
+    - [Future Features](#future-features)
+* [Issues & Bugs](#issues-and-bugs)
 
 
 

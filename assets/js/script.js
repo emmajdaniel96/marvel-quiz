@@ -1,9 +1,7 @@
 
-
-document.addEventListener("DOMContentLoaded", function()) {
-
-}
-
+const question = document.getElementById('question');
+const option = Array.from(document.getElementsByClassName('option-content'));
+const score = document.getElementById('score');
 
 
 let questions = [{
