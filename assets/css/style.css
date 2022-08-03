@@ -72,6 +72,10 @@ a, h1:hover {
 }
 
 .option-box:hover {
-    background: rgb(247,222,95);
+    background: rgb(250,204,95);
     width: 74%;
+}
+
+.score {
+    float: left;
 }

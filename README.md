@@ -7,7 +7,13 @@
     - [Target User Demographic](#Target-User-Demographic)
 * [Development Plan](#Development-Plan)
     - [Strategy](#Strategy)
-    - [Design](#Design)
+* [Design](#Design)
+    - [Structure](#Structure)
+    - [Template](#Template)
+    - [Colour Palette](#Colour-Palette)
+* [Features](#Features)
+
+
 
 ## Introduction:
 This quiz has been designed and created to challenge the knowledge of Marvel fans, when it comes to both the MCU (Marvel Cinematic Universe) and comic books, whether they are a hardcore fan or even if they are just casual fans that want to test how muhc they really now.
@@ -49,6 +55,28 @@ Aim is to build a quiz using HTML, CSS, and JavaScript that is simple, fun and i
 The quiz needs to provide the following:
 - Light-hearted fun
 - Entertainment
+- Simple navigation
+
 
 ## Design:
 
+### Structure:
+The format/ structure to the quiz should follow the simple sturcture of a multiple choice quiz. The user/ player will answer a question that is shown by choosing from a selction of answers, one of which will be the correct answer. For every correct answer, a score out of 10 will be shown, therefore showing the user their progress through the quiz.
+
+### Template:
+For the template, Wireframes have been created to map out how the quiz/ game should look overall in its basic form. In order to keep the user engaged the overall look and interactivity of the quiz is kept in mind through the design process.
+
+### Colour Palette:
+For the colour palette, the inspiraion has mainly been taken from the Marvel logo itself with the bright solid red mainly along with the white that is also in the main logo. For the answer boxes, the decision made to use a lighter red was due to wanting the answers written to be clear for the user to read and les distracting to the eye.
+
+### Typography:
+The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but also there is the back up of Sans-Serif, just in case any issues occcured with the primary font uploading. The font chosen was 
+
+
+## Features:
+
+* Header - Quiz title that appears at the top of the page throughout the quiz (From start page, through the quiz, and at the end of the quiz)
+
+* Hero Image - main feature of the start page, used as a background through the quiz, main featuure on score page
+
+* 
