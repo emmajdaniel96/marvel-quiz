@@ -76,6 +76,13 @@ a, h1:hover {
     width: 74%;
 }
 
-.score {
-    float: left;
+.score-tracker {
+    color: white;
+    background-color: red;
+    height: 110px;
+    width: 110px;
+    float: right;
+    margin-right: 130px;
+    margin-top: -110px;
+    font-size: 140%;
 }
