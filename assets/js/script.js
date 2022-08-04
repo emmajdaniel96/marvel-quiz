@@ -34,11 +34,11 @@ let questions = [{
     option1: 'Mary Jane',
     option2: 'Aunt May',
     option3: 'Uncle Ben',
-    option4: 'Gewn Stacy',
+    option4: 'Gwen Stacy',
     answer: 3,
  },
  {
-    question: 'Who is know as "The God Of Mischeif"?',
+    question: 'Who is known as "The God Of Mischeif"?',
     option1: 'Surtur',
     option2: 'Thor',
     option3: 'Odin',
@@ -54,7 +54,7 @@ let questions = [{
     answer: 2,
  },
  {
-    question: 'Where does the rare metallic substance Vibranium come from?',
+    question: 'Where does the rare metallic substance, Vibranium come from?',
     option1: 'New York City',
     option2: 'Asgard',
     option3: 'The Moon',
@@ -67,7 +67,7 @@ let questions = [{
     option2: 'The Black Room',
     option3: 'The Green Room',
     option4: 'The White Room',
-    answer: 2,
+    answer: 1,
  },
  {
     question: 'What notable alias does Doctor Strange have?',
