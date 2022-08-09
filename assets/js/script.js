@@ -101,7 +101,7 @@ let questions = [{
 
 // Start of the quiz
 
- runQuiz = () => {
+ function runQuiz() {
    questionTracker = 0;
    scoreCounter = 0;
    attainableQuestions = [...questions];
@@ -110,7 +110,7 @@ let questions = [{
 
    // calls for a new question to be used after current question has been answered 
 
-   getNewQuestion = () => {
+   let getNewQuestion = () => {
       if(attainableQuestions.length === 0 || questionTracker > MAX_QUESTIONS); {
          localStorage.setItem('recentScore', score);
 

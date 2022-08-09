@@ -33,7 +33,6 @@ For this project, the aim is to utilies the fundamentals of JavaScript along wit
 
 ## UX:
 
-
 ## Target User Demographic:
 The target demographic for this quiz are as follows:
 
@@ -87,3 +86,27 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 
 
 ## Issues and Bugs:
+
+(Minimal errors occured with html and css files)
+
+### Start Page:
+
+- index.html file - link to JavaScript file was incorrectly placed, was out of body element. 
+- issue with link to font awesome in the head element of html file
+
+### Quiz Page:
+
+- stray div tag from not correctly removing full div tag from the file
+
+
+### End of Quiz Page:
+
+- stray anchor tag 
+
+### CSS Styling Sheet:
+
+- property used with an invalid value caused error through checks
+
+### JavaScript File:
+
+- missed several semi colons throughout the file 
