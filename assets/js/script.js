@@ -125,7 +125,7 @@ let questions = [{
       question.innerText = currentQuestion.question;
 
       options.forEach(option => {
-         const number  = option.dataset["number"];
+         const number  = option.dataset.number;
          option.innerText = currentQuestion["option" + number];
       })
 
