@@ -3,6 +3,8 @@ const question = document.getElementById('question');
 const option = Array.from(document.getElementsByClassName('option-content'));
 const score = document.getElementById('score');
 
+// variables for the quiz 
+
 let currentQuestion = {};
 let correctAnswer = true;
 let scoreCounter = 0;
@@ -103,9 +105,10 @@ let questions = [{
    questionTracker = 1;
    scoreCounter = 0;
    attainableQuestions = [...questions];
-
-   // calls for a new question to be used after current question has been answered 
-   
-   getNewQuestion()
  }
 
+   // calls for a new question to be used after current question has been answered 
+
+   getNewQuestion = () => {
+      questionTracker++;
+   }
