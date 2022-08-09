@@ -93,7 +93,7 @@ let questions = [{
     option3: 'Wanda Maximoff',
     option4: 'Agatha Harkness',
     answer: 4,
- }]
+ }];
 
 
  const correctAnswerPoint = 1;
@@ -106,23 +106,23 @@ let questions = [{
    scoreCounter = 0;
    attainableQuestions = [...questions];
    getNewQuestion();
- }
+ };
 
    // calls for a new question to be used after current question has been answered 
 
    getNewQuestion = () => {
-      if(attainableQuestions.length === 0 || questionTracker > MAX_QUESTIONS) {
-         localStorage.setItem('recentScore', score)
+      if(attainableQuestions.length === 0 || questionTracker > MAX_QUESTIONS); {
+         localStorage.setItem('recentScore', score);
 
-         return window.location.assign("/quiz-end.html")
+         return window.location.assign("/quiz-end.html");
       }
 
       questionTracker++;
-      progressText.innerText = `Question ${questionTracker} of ${MAX_QUESTIONS}`
+      progressText.innerText = `Question ${questionTracker} of ${MAX_QUESTIONS}`;
 
-      const questionsIndex = Math.floor(Math.random() * attainableQuestions.length)
-      currentQuestion = attainableQuestions[questionsIndex]
-      question.innerText = currentQuestion.question
+      const questionsIndex = Math.floor(Math.random() * attainableQuestions.length);
+      currentQuestion = attainableQuestions[questionsIndex];
+      question.innerText = currentQuestion.question;
 
       options.forEach(option => {
          const number  = option.dataset["number"];
@@ -136,11 +136,11 @@ let questions = [{
 
    options.forEach(option => {
       option.addEventListener('click', e => {
-         if(!acceptingAnswer) return
+         if(!acceptingAnswer) return;
 
 
-         acceptingAnswer = false
+         acceptingAnswer = false;
 
-         const chosenAnswer = e.target 
+         const chosenAnswer = e.target; 
       })
    })
