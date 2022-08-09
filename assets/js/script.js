@@ -97,18 +97,24 @@ let questions = [{
 
 
  const correctAnswerPoint = 1;
- const maxQuestions = 10;
+ const MAX_QUESTIONS = 10;
 
 // Start of the quiz
 
- function runQuiz() {
-   questionTracker = 1;
+ runQuiz = () => {
+   questionTracker = 0;
    scoreCounter = 0;
    attainableQuestions = [...questions];
+   getNewQuestion();
  }
 
    // calls for a new question to be used after current question has been answered 
 
    getNewQuestion = () => {
+      if(attainableQuestions.length === 0 || questionTracker > MAX_QUESTIONS) {
+         localStorage.setItem
+      }
+
       questionTracker++;
+      progressText.innerText = `Question ${questionTracker} of ${MAX_QUESTIONS}`
    }
