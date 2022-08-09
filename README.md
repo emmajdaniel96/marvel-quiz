@@ -110,3 +110,6 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 ### JavaScript File:
 
 - missed several semi colons throughout the file 
+- square bracket notation, a suggestion for dot notation was given instead.
+
+After validating all file pages, no syntax errors have occured during final testing stage.
