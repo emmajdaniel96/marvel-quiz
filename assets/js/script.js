@@ -4,6 +4,8 @@ const option = Array.from(document.getElementsByClassName('option-content'));
 const score = document.getElementById('score');
 
 
+// questions for quiz
+
 let questions = [{
 
     question: 'What film started Phase 1 of the Marvel Cinematic Universe?',
@@ -85,14 +87,10 @@ let questions = [{
     option4: 'Agatha Harkness',
     answer: 4,
  }]
-function runQuiz
 
-function correctAnswerChosen
+ let currentQuestion = {};
+ 
+ let correctAnswer = true;
 
-function increaseScore
-
-function increaseIncorrectAnswer
-
-function displayQuestion
-
-function displayAnswerOptions
+ const scoreCounter = 1;
+ const maxQuestions = 10;
