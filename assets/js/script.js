@@ -1,6 +1,6 @@
 
 const question = document.getElementById('question');
-const option = Array.from(document.getElementsByClassName('option-content'));
+const options = Array.from(document.getElementsByClassName('option-content'));
 const score = document.getElementById('score');
 
 // variables for the quiz 
@@ -124,15 +124,23 @@ let questions = [{
       currentQuestion = attainableQuestions[questionsIndex]
       question.innerText = currentQuestion.question
 
-      option.forEach(option => {
-         const number  = option.dataset["number"]
-         option.innerText = currentQuestion["option" + number]
+      options.forEach(option => {
+         const number  = option.dataset["number"];
+         option.innerText = currentQuestion["option" + number];
       })
 
-      attainableQuestions.splice(questionsIndex, 1) 
+      attainableQuestions.splice(questionsIndex, 1);
 
       acceptingAnswer = true;
-
-      
-
    }
+
+   options.forEach(option => {
+      option.addEventListener('click', e => {
+         if(!acceptingAnswer) return
+
+
+         acceptingAnswer = false
+
+         const chosenAnswer = e.target 
+      })
+   })
