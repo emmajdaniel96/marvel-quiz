@@ -3,8 +3,13 @@ const question = document.getElementById('question');
 const option = Array.from(document.getElementsByClassName('option-content'));
 const score = document.getElementById('score');
 
+let currentQuestion = {};
+let correctAnswer = true;
+let scoreCounter = 0;
+let questionTracker = 0;
+let attainableQuestions = [];
 
-// questions for quiz
+// questions and answers for quiz
 
 let questions = [{
 
@@ -88,9 +93,19 @@ let questions = [{
     answer: 4,
  }]
 
- let currentQuestion = {};
- 
- let correctAnswer = true;
 
- const scoreCounter = 1;
+ const correctAnswerPoint = 1;
  const maxQuestions = 10;
+
+// Start of the quiz
+
+ function runQuiz() {
+   questionTracker = 1;
+   scoreCounter = 0;
+   attainableQuestions = [...questions];
+
+   // calls for a new question to be used after current question has been answered 
+   
+   getNewQuestion()
+ }
+
