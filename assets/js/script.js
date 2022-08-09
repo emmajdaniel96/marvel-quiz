@@ -127,12 +127,12 @@ let questions = [{
       options.forEach(option => {
          const number  = option.dataset.number;
          option.innerText = currentQuestion["option" + number];
-      })
+      });
 
       attainableQuestions.splice(questionsIndex, 1);
 
       acceptingAnswer = true;
-   }
+   };
 
    options.forEach(option => {
       option.addEventListener('click', e => {
@@ -142,5 +142,5 @@ let questions = [{
          acceptingAnswer = false;
 
          const chosenAnswer = e.target; 
-      })
-   })
+      });
+   });
