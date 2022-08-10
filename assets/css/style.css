@@ -76,6 +76,12 @@ a, h1:hover {
 .option-box:hover {
     background: rgb(250,204,95);
     width: 74%;
+    cursor: pointer;
+}
+
+.option-content {
+    width: 75%;
+    float: left;
 }
 
 .option-prefix {

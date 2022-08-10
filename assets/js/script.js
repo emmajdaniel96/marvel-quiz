@@ -109,9 +109,13 @@ let questions = [{
  };
 
    // calls for a new question to be used after current question has been answered 
-   /* */
+   /* https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6 video tutorial was 
+   used to help with the get new question function */
 
    let getNewQuestion = () => {
+      if(attainableQuestions.length === 0 || questionTracker > MAX_QUESTIONS) {
+         return window.location.assign("/quiz-end.html");
+      }
       questionTracker++;
       const questionsIndex = Math.floor(Math.random() * attainableQuestions.length);
       currentQuestion = attainableQuestions[questionsIndex];
@@ -128,15 +132,17 @@ let questions = [{
    };
 
    options.forEach(option => {
-      option.addEventListener('click', e => {
+      option.addEventListener("click", e => {
          if(!acceptingAnswer) return;
 
          acceptingAnswer = false;
 
          const chosenAnswer = e.target; 
          const selectedAnswer = chosenAnswer.dataset.number;
+         console.log(selectedAnswer);
+         getNewQuestion();
 
-         let classToApply = selectedAnswer == currentQuestion.answer
+         let classToApply = selectedAnswer == currentQuestion.answer; 
 
          if(classToApply === "correct") {
             incrementScore(correctAnswerPoint)
