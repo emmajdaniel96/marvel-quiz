@@ -124,3 +124,17 @@ After validating all file pages, no syntax errors have occured during final test
 
 - colours reacting to correct answers (eg. correct answer turning green once clicked)
 
+
+## Device Testing:
+- In order to make this quiz responsive, google chrome developer tools has been used to test the responsiveness on different devices. These are the following devices that have been tested:
+
+- iPad Air
+- iPad Mini
+- Nest Hub
+- iPhone XR
+- iPhone 12 Pro
+- Pixel 5
+- Samsung Galaxy S20 Ultra
+
+
+

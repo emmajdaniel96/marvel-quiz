@@ -143,16 +143,7 @@ let questions = [{
          getNewQuestion();
 
          let classToApply = selectedAnswer == currentQuestion.answer; 
-
-         if(classToApply === 'correct' ) {
-            incrementScore(correctAnswerPoint)
-         }
       }); 
    });
-
-let incrementScore = num =>  {
-   score +=num;
-   score.innerText = score;
-}
 
 runQuiz();
