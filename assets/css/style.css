@@ -100,7 +100,19 @@ a, h1:hover {
 
 /* For medium screens 850px wide and down */
 @media screen and (max-width: 850px) {
+
+    #question {
+        padding-bottom: 3em;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: 515px;
+    }
     
+    .option-box {
+        margin-bottom: 3em;
+    }
 }
 
 /* For small screens 500px wide and down */
