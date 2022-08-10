@@ -17,8 +17,8 @@
     - [Unsolved Issues/Bugs](#unsolved-issues-bugs)
     - [Device Testing](#device-testing)
 * [Deployment](#deployment)
-
-
+* [Technologies Used](#technologies-used)
+* [Credits & Acknowledgements](#credits-and-acknowledgements)
 
 ## Introduction:
 This quiz has been designed and created to challenge the knowledge of Marvel fans, when it comes to both the MCU (Marvel Cinematic Universe) and comic books, whether they are a hardcore fan or even if they are just casual fans that want to test how muhc they really now.
@@ -159,6 +159,24 @@ There is also the possibility of forking the repository. This is where you are a
 - In Github, change the location to where you would like the directory to be located to.
 - Type 'git clone' and pasted the link that was previously copied
 - Once you press enter, a local clone has now been created 
+
+
+## Technologies Used:
+
+### Languages Used
+- HTML
+- CSS
+- JavaScript
+
+### Programs Used:
+- [GitPod](https://www.gitpod.io/) - used to write the code, commit and then push to GitHub
+- [GitHub](https://github.com/) - used to store the code/ project after being pushed from GitPod
+- [Balsamiq](https://balsamiq.com/wireframes/) - used to create Wireframes throughout the design process 
+- [Google Fonts](https://fonts.google.com/) - used throughout the site for the font which has been imported into the style.css file
+- [Extends Class](https://extendsclass.com/javascript-fiddle.html) - used to identify errors in JavaScript code
+- [JavaScript Beautifier](https://beautifier.io/) - to clean up aesthetic of JavaScript code
+- [Coolors](https://coolors.co/) - used to build the colour palette used from hero image
+- [RapidTables](https://www.rapidtables.com/web/color/RGB_Color.html) - used to generate rgb colour codes
 
 ## Credits
 
