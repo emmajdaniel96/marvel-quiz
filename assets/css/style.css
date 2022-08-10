@@ -88,17 +88,6 @@ a, h1:hover {
     width: 60px;
 }
 
-.score-tracker {
-    color: white;
-    background-color: red;
-    height: 110px;
-    width: 110px;
-    float: right;
-    margin-right: 130px;
-    margin-top: -150px;
-    font-size: 140%;
-}
-
 /* For large screens 1200px wide and down */
 @media screen and (max-width: 1200px) {
 

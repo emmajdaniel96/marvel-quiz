@@ -39,9 +39,13 @@ For this project, the aim is to utilies the fundamentals of JavaScript along wit
 ## Target User Demographic:
 The target demographic for this quiz are as follows:
 
+![Marvel Logo](assets/images/marvel-logo.jpg)
+
 * Marvel Comic Fans
 * Comic Book Fans 
 * Marvel Cinematic Universe Fans
+
+
 
 ### Goals for above target user demographic:
 - To challenge their knowledge of quiz topic 
@@ -70,8 +74,13 @@ The format/ structure to the quiz should follow the simple sturcture of a multip
 ### Template:
 For the template, Wireframes have been created to map out how the quiz/ game should look overall in its basic form. In order to keep the user engaged the overall look and interactivity of the quiz is kept in mind through the design process.
 
+![Quiz Template](assets/images/quiz-template.jpg)
+![Multiple Choice Template](assets/images/multiple-choice-template.jpg)
+
 ### Colour Palette:
 For the colour palette, the inspiraion has mainly been taken from the Marvel logo itself with the bright solid red mainly along with the white that is also in the main logo. For the answer boxes, the decision made to use a lighter red was due to wanting the answers written to be clear for the user to read and les distracting to the eye.
+
+![Colour Palette](assets/images/collage.jpg)
 
 ### Typography:
 The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but also there is the back up of Sans-Serif, just in case any issues occcured with the primary font uploading. The font chosen was 
