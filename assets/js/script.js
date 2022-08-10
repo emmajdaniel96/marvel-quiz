@@ -109,18 +109,10 @@ let questions = [{
  };
 
    // calls for a new question to be used after current question has been answered 
+   /* */
 
    let getNewQuestion = () => {
-      if(attainableQuestions.length === 0 || questionTracker > MAX_QUESTIONS); {
-         localStorage.setItem('recentScore', score);
-
-         return window.location.assign(`/quiz-end.html`);
-
-      }
-
       questionTracker++;
-      progressText.innerText = `Question ${questionTracker} of ${MAX_QUESTIONS}`;
-
       const questionsIndex = Math.floor(Math.random() * attainableQuestions.length);
       currentQuestion = attainableQuestions[questionsIndex];
       question.innerText = currentQuestion.question;
@@ -139,9 +131,24 @@ let questions = [{
       option.addEventListener('click', e => {
          if(!acceptingAnswer) return;
 
-
          acceptingAnswer = false;
 
          const chosenAnswer = e.target; 
-      });
+         const selectedAnswer = chosenAnswer.dataset.number;
+
+         let classToApply = selectedAnswer == currentQuestion.answer
+
+         if(classToApply === "correct") {
+            incrementScore(correctAnswerPoint)
+         }
+
+         
+      }); 
    });
+
+incrementScore = num =>  {
+   score +=num;
+   scoreText.innerText = score;
+}
+
+runQuiz();
