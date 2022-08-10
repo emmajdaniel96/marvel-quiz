@@ -14,6 +14,9 @@
 * [Features](#Features)
     - [Future Features](#future-features)
 * [Issues & Bugs](#issues-and-bugs)
+    - [Unsolved Issues/Bugs](#unsolved-issues-bugs)
+    - [Device Testing](#device-testing)
+* [Deployment](#deployment)
 
 
 
@@ -135,6 +138,29 @@ After validating all file pages, no syntax errors have occured during final test
 - iPhone 12 Pro
 - Pixel 5
 - Samsung Galaxy S20 Ultra
+
+## Deployment
+
+### Deployment to GitHub Pages:
+- In GitGub repository, navigate to 'Settings' on the top horizontal bar
+- From the 'Settings' page, find the 'GitHub Pages' section
+- Locate 'Source', then select None tab and change it to Master then click 'Save'.
+- When the page has loaded, scroll down to 'GitHub Pages' section again, and a maessage about site publication should come up. (This can take time to initially load.).
+
+### Forking GitHub Repository:
+There is also the possibility of forking the repository. This is where you are able to make a copy of the repository and make changes to it without effecting the original repository. This can be done in a few simple steps.
+- Find the repository you wish to use
+- Underneath the account icon on the top-right hand of the screen, the button labelled 'fork' can be found.
+- Click on this in order to make a copy of the repository
+
+### Make Local Clone:
+- In the GitHub Repository, next to the Gitpod button, click on code.
+- Copy the code that is displayed
+- In Github, change the location to where you would like the directory to be located to.
+- Type 'git clone' and pasted the link that was previously copied
+- Once you press enter, a local clone has now been created 
+
+## Credits
 
 
 
