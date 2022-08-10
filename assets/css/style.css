@@ -95,7 +95,18 @@ a, h1:hover {
 
 /* For large screens 1200px wide and down */
 @media screen and (max-width: 1200px) {
+
+    .hero-image {
+        height: 770px;
+    }
     
+    .score-tracker {
+        height: 112px;
+        width: 100px;
+        margin-right: 100px;
+        margin-top: -147px;
+        font-size: 150%;
+    }
 }
 
 /* For medium screens 850px wide and down */
