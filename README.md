@@ -80,10 +80,12 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 
 * Hero Image - main feature of the start page, used as a background through the quiz, main featuure on score page
 
-* 
+* Quiz Area - the focal point of the page and the most interactive part of the quiz 
 
 ### Future Features:
 
+- Score tracker
+- Progress bar/ symbol
 
 ## Issues and Bugs:
 
@@ -113,3 +115,12 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 - square bracket notation, a suggestion for dot notation was given instead.
 
 After validating all file pages, no syntax errors have occured during final testing stage.
+
+
+## Unsolved Issues/ Bugs
+
+### Quiz Page:
+- problems getting the score tracker to update along with the questions answered (Removed from final product, further testing on this code will continue to make this a future feature)
+
+- colours reacting to correct answers (eg. correct answer turning green once clicked)
+
