@@ -143,6 +143,8 @@ After validating all file pages, no syntax errors have occured during final test
 
 - colours reacting to correct answers (eg. correct answer turning green once clicked)
 
+A lot of the errors and lack of complex JavaScript code in general is definitely due to the lack of knowledge I have within this field. As I continue to learn and practice the lanuage of JavaScript, I hope this can only make me more confident to push the code further than it has currently been showcased.
+
 
 ## Device Testing:
 - In order to make this quiz responsive, google chrome developer tools has been used to test the responsiveness on different devices. These are the following devices that have been tested:
