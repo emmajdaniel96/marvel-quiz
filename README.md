@@ -98,6 +98,8 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 
 - index.html file - link to JavaScript file was incorrectly placed, was out of body element. 
 - issue with link to font awesome in the head element of html file
+    - [Font Awesome Link Error](assets/testing/start-page-error.jpg)
+    - [JavaScript Link Error](assets/testing/js-link-error.jpg)
 
 ### Quiz Page:
 
@@ -107,10 +109,12 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 ### End of Quiz Page:
 
 - stray anchor tag 
+    - [Stray Anchor Error](assets/testing/stray-anchor.jpg)
 
 ### CSS Styling Sheet:
 
-- property used with an invalid value caused error through checks
+- property used with an invalid value caused error through checks, once removed, no errors were identified
+    - [CSS Error Free](assets/testing/css-styling-sheet.jpg)
 
 ### JavaScript File:
 
@@ -119,6 +123,9 @@ The main font used throughout the quiz is Saira (Extra/ Semi Condensed), but als
 
 After validating all file pages, no syntax errors have occured during final testing stage.
 
+ - [Semi Colon Errors](assets/testing/semi-colon-errors1.jpg)
+ - [More Semi Colon Errors](assets/testing/semi-colon-errors2.jpg)
+ - [Dot Notation Susgestion](assets/testing/dot-notation.jpg)
 
 ## Unsolved Issues/ Bugs
 
@@ -178,7 +185,13 @@ There is also the possibility of forking the repository. This is where you are a
 - [Coolors](https://coolors.co/) - used to build the colour palette used from hero image
 - [RapidTables](https://www.rapidtables.com/web/color/RGB_Color.html) - used to generate rgb colour codes
 
-## Credits
+## Credits & Acknowledgements:
+
+- [W3Schools](https://www.w3schools.com/js/default.asp)
+- [Brian Design](https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+- [James Q Quick](https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6)
+
+I would like to thank my mentor throughout this project as well as through the course this far. With this being my second project, I have recognised that I have hit a lot more hurdles this time in comparison to the last project. In all honesty, I have struggled with this module a lot but will continue to practice in order to better myself. I'd like to think my friends and family for their amazing support and giudance. Very eager to build on this further and make a much better product.
 
 
 
