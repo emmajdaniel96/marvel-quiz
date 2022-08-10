@@ -114,7 +114,8 @@ let questions = [{
       if(attainableQuestions.length === 0 || questionTracker > MAX_QUESTIONS); {
          localStorage.setItem('recentScore', score);
 
-         return window.location.assign("/quiz-end.html");
+         return window.location.assign(`/quiz-end.html`);
+
       }
 
       questionTracker++;

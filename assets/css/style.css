@@ -92,3 +92,34 @@ a, h1:hover {
     margin-top: -150px;
     font-size: 140%;
 }
+
+/* For large screens 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* For medium screens 850px wide and down */
+@media screen and (max-width: 850px) {
+    
+}
+
+/* For small screens 500px wide and down */
+@media screen and (max-width: 500px) {
+    
+    .hero-image {
+        width: 95%;
+        height: 325px;
+    }
+
+    .quiz-area {
+        height: 320px;
+    }
+
+    .score-tracker {
+        margin-right: 20px;
+        margin-top: -180px;
+        font-size: 106%;
+        height: 80px;
+        width: 80px;
+    }
+}
